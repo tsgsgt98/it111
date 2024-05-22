@@ -35,11 +35,11 @@ public class KilloConverter extends JFrame {
     }
   public void buildPanel() {
 
-        messageLabel = new JLabel("text",):"Enter a distance in Kilometers");
+        messageLabel = new JLabel ("enter a distance in kilometers");
 //text, button, panel
-      kiloTextField = new JTextField(columns):10);
+      kiloTextField = new JTextField (10);
 
-      calcButton = new JButton(text):"Calculate");
+      calcButton = new JButton ("calculate");
 
       panel = new JPanel();
 //      we now have to add the above three components onto the JPanel

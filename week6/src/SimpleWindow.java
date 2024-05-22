@@ -1,5 +1,5 @@
 
-import java.swing.*;
+import javax.swing.*;
 public class SimpleWindow extends JFrame {
 
 //    I am not going to have a main method in this file
