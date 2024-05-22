@@ -16,6 +16,7 @@ public class SimpleWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 //        don't forget to display it!!!
+        setLayout(null);
         setVisible(true);
 
 
