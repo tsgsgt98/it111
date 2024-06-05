@@ -54,7 +54,6 @@ public class MydailySpecials {
 
             }
 
-
             case "Tuesday" -> {
                 coffee = "Frapp";
                 price = 5.95;
