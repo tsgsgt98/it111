@@ -23,7 +23,7 @@ public class MydailySpecials {
         boolean saturday = MydailySpecials.equals("Saturday");
         boolean sunday = MydailySpecials.equals("Sunday");
 
-        if(saturday || sunday) {
+        while (saturday || sunday) {
             System.out.println("Please enter a weekday, not weekend!");
             MydailySpecials = input.next();
 

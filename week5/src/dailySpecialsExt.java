@@ -67,8 +67,8 @@ public class dailySpecialsExt {
                     System.out.println(specials + " 's coffee of thd day is a  " + coffee + " and the price will be $" + price);
                     break;
 
-                default:
-                    System.out.println("Invalid input - Please check your spelling!!!");
+//                default:
+//                    System.out.println("Invalid input - Please check your spelling!!!");
             }
         }
     }

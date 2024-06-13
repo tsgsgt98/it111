@@ -12,20 +12,20 @@ public class dailySpecials {
 
         specials = input.next();
 
-        input.close();
+//        input.close();
 //        in the world of coffee, I need a name of a coffee beverage and a price
 
 
         String coffee;
         double price;
 
-//        boolean saturday = specials.equals("Saturday");
-//        boolean sunday = specials.equals("Sunday");
-//
-//        if(saturday || sunday) {
-//           System.out.println("Please enter a weekday, not weekend");
-//            specials = input.next();
-//        }
+        boolean saturday = specials.equals("Saturday");
+        boolean sunday = specials.equals("Sunday");
+
+        if(saturday || sunday) {
+           System.out.println("Please enter a weekday, not weekend");
+            specials = input.next();
+        }
 
 
         switch (specials) {
@@ -35,10 +35,6 @@ public class dailySpecials {
             case "Monday":
                 coffee = "Latte";
                 price = 4.95;
-
-//         System.out.println(coffee);
-//         System.out.println(price);
-
                 System.out.println(specials + " 's coffee of the day is a  " + coffee + " and the price will be $" + price);
                 break;
 
@@ -68,7 +64,7 @@ public class dailySpecials {
 
                 default:
                 System.out.println("Invalid input - Please check your spelling!!!");
-            }
+          }
         }
     }
 
